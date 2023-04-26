@@ -1,0 +1,127 @@
+/* CSS for screen sizes 1024px and above */
+#skills .title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3.8rem;
+    padding-bottom: 3.8rem;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: #27ae60;
+    text-decoration-thickness: 7px;
+}
+#skills .tittle::before{
+    content: "";
+    width: 15rem;
+    height: 4px;
+    background: var(--secondarycolor);
+    position: absolute;
+    top: 50%;
+}
+.skills_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    width: 100%;
+}
+.skill_content h2{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.skill_content p{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.8;
+}
+.skill_progress .info{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.8;
+}
+.skills_progress .progress{
+    margin-bottom: 1rem;
+}
+.skills_progress .info span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.skills_progress .line_css{
+    height: 0.3rem;
+    width: 100%;
+    background: var(--lightcolor);
+    margin: 0.5rem 0;
+}
+.skills_progress .java::before{
+    content: "";
+    position: absolute;
+    width: 77%;
+    height: 100%;
+    background: var(--secondarycolor);
+    left: 0;
+    top: 0;
+}
+.skills_progress .css::before{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.skills_progress .javascript::before{
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.skills_progress .kotlin::before{
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.skills_progress .php::before{
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.skills_progress .spring::before{
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.skills_progress .vue::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.skills_progress .python::before{
+    content: "";
+    position: absolute;
+    width: 78%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/* CSS for screen sizes below 1024px */
+@media (max-width: 1023px) {
+    #skills .title{
+        font-size: 2rem;
+        margin-bottom: 2.8rem;
+        padding-bottom: 2.8rem;
+}
+}
