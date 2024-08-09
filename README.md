@@ -14,4 +14,4 @@ This is my simple javascript Birthday countdown
 - CSS
 
 ## Link
-https://imanibirthday.netlify.app
+https://softmanu-softwares.netlify.app/
